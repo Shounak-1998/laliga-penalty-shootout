@@ -1,105 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shounak Khulape</title>
-    <title>ProGrad Premier League</title>
+    <title>Football Premier League</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- semantic web tags -->
     <!-- Navigation part is done -->
-
-    <nav>
    <nav>
 <ul>
-    <li><img src="" alt=""></li>
-    <li><img src="./Football/football.png" alt=""></li>
+    <li class="logo-image">
+        <img class="logo" src="./Football/football.png" alt=""></li>
     <li>
-        <ui>
-
-        <li><a href="#teams">Teams</a></li>
-        <li><a href="#fixture">Fixture</a></li>
-        <li><a href="#gameplay">gameplay</a> </li>
-        <li><a href="#pointtable">pointstable</a> </li>
-        <ui>
         <ul>
-            <li><a href="#teams">TEAMS</a> </li>
-            <li><a href="#fixtures"> FIXTURES</a></li>
-            <li><a href="#gameplay">GAME PLAY</a> </li>
-            <li><a href="#points">POINTS TABLE</a> </li>
+            <li><a href="#teams" class="nav-link">TEAMS</a> </li>
+            <li><a href="#fixtures" class="nav-link"> FIXTURES</a></li>
+            <li><a href="./game.html" class="nav-link">GAME PLAY</a> </li>
+            <li><a href="#" class="nav-link">POINTS TABLE</a> </li>
         </ul>
     </li>
 </ul>
-    </nav>
-    <header id="#teams">
    </nav>
-   <header id="#teams">
+   <header id="teams">
        <div>
         <article>
-            <img src="./Football/Dutch.png" alt=""/>
-            <h4> DUTCH </h4>
-            <p>Wins - 6 Loses - 4</p>
+            <img src="./Football/Dutch.png" class="team-logo" alt=""/>
+            <h4> Dutch Team</h4>
         </article>
         <article>
-            <img src="./Football/Germany.png" alt=""/>
-            <h4> GERMANY </h4>
+            <img src="./Football/Germany.png" class="team-logo" alt=""/>
+            <h4> Germany Team</h4>
         </article>
         <article>
-            <img src="./Football/Japan.png" alt=""/>
-            <h4> JAPAN </h4>
+            <img src="./Football/Italy.png" class="team-logo" alt=""/>
+            <h4> Italy Team</h4>
         </article>
         <article>
-            <img src="./Football/Lion.png" alt=""/>
-            <h4> LION </h4>
+            <img src="./Football/Lion.png" class="team-logo" alt=""/>
+            <h4> Lion Team</h4>
         </article>
-      
+        <article>
+            <img src="./Football/MU.png" class="team-logo" alt=""/>
+            <h4> MU Team</h4>
+        </article>
+        <article>
+            <img src="./Football/RM.png" class="team-logo" alt=""/>
+            <h4> RM Team</h4>
+        </article>
        </div>
-
    </header>
-
-   <section id="#gameplay">
-    <div>
-        <div>
-            <article>
-                <img src="" alt="">
-                <h4></h4>
-            </article>
-            <div>
-                <img src="./Football/MU.png" alt="">
-                <h4> MU </h4>
-                <span></span>
-                <div>
-                    <span>1</span>
-                    <span>0</span>
-                    <span>0</span>
-                    <span>0</span>
-                    <span>1</span>
-                    <span>0</span>
-                </div>
+   <section id="fixtures">
+   <div class="flex container">
+    <a name="schedule"></a>
+    <div class="flex qualifier">
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/Dutch.png" alt="DT">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/Italy.png" alt="JP">
             </div>
         </div>
-
-    </header>
-        <div>
-            <div>
-                <img src="./Football/RM.png" alt="">
-                <h4> RM </h4>
-                <span></span>
-                <div>
-                    <span>1</span>
-                    <span>0</span>
-                    <span>0</span>
-                    <span>1</span>
-                    <span>1</span>
-                    <span>0</span>
-                </div>
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/Lion.png" alt="LN">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/MU.png" alt="MU">
+            </div>
+        </div>
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/Lion.png" alt="LN">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/MU.png" alt="MU">
+            </div>
+        </div>
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/RM.png" alt="ENG">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/England.png" alt="ENG">
+            </div>
+        </div> 
+        <div  class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/spain.png" alt="SP">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/Germany.png" alt="GER">
             </div>
         </div>
     </div>
-   </section>
-   <footer>
-
+    <div class="flex semifinal">
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/Dutch.png" alt="DT">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/MU.png" alt="MU">
+            </div>
+        </div>
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/RM.png" alt="RM">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/Germany.png" alt="GER">
+            </div>
+        </div>
+    </div>
+    <div class=flex-final>
+        <div class="flex set">
+            <div class="card">
+                <img class="img" src="./Football/Dutch.png" alt="DUTCH">
+            </div>
+            <h3>VS</h3>
+            <div class="card">
+                <img class="img" src="./Football/Germany.png" alt="GER">
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+   <footer >
+       Happy Coding Shounak
    </footer>
 </body>
 </html>
-</htm
